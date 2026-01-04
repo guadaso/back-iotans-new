@@ -1,0 +1,23 @@
+{
+  "name": "iot-back",
+  "version": "1.0.0",
+  "description": "Backend для IoT проекта",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "nodemon index.cjs",
+    "build": "echo \"No build step for pure Node.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
